@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= <form action=" /">
+    <title>FeedBack From</title>
+</head>
+
+<body bgcolor="#99badd">
+    <form action="">
+        <!-- Feedback Table -->
+        <table width="1000px" align="center" border="1px solid black" bordercolor="white">
+            <!-- Caption -->
+            <caption>
+                <hr color="#0000ff" width="500px">
+                <hr color="black" width="300px">
+                <h1>Customer FeedBack Form</h1>
+                <p>Please help us improve our services by filling in our feedback form. Thank you!</p>
+                <hr color="black" width="300px">
+                <hr color="#0000ff" width="500px">
+
+            </caption>
+
+            <!-- Name -->
+            <!-- Email -->
+            <tr align="left">
+                <th>
+                    Name
+                </th>
+                <th>
+                    Email
+                </th>
+            </tr>
+            <tr>
+                <td><input type="text" name="name" placeholder="First Name" />
+                    <input type="text" name="name" placeholder="Last Name" />
+                </td>
+                <td>
+                    <input type="text" name="name" placeholder="abcperson@gmail.com" />
+                </td>
+            </tr>
+            <!-- Services -->
+            <!-- Ordered Date -->
+            <tr align="left">
+                <th>
+                    Services You Hired<span>*</span>
+                </th>
+                <th>
+                    Ordered Date
+                </th>
+
+            </tr>
+            <tr>
+                <td>
+                    <select>
+                        <option value="location" disabled selected>*Please Select*</option>
+                        <option value="1">Web Development</option>
+                        <option value="2">Android Development</option>
+                        <option value="3">Wordpress Development</option>
+                        <option value="4">Data Science</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="date" name="ordereddate" required />
+                </td>
+
+            </tr>
+            <tr align="left">
+                <!-- Delivery Time -->
+                <!-- Customer Status -->
+                <th>
+                    Delivery Time
+                </th>
+                <th>
+                    First Order / Regular Customer
+                </th>
+
+            </tr>
+            <tr>
+                <td>
+                    <select>
+                        <option class="disabled" value="location" disabled selected>*Please Select*</option>
+                        <option value="under 13">1 weak</option>
+                        <option value="13-17">1 month</option>
+                        <option value="18-24">other</option>
+                    </select>
+                </td>
+                <td>
+                    <label><input type="radio" value="none" name="typeofcustomer" /> First Time</label>
+                    <label><input type="radio" value="none" name="typeofcustomer" /> Regular Customer</label>
+                </td>
+
+            </tr>
+            <tr align="left">
+                <!-- Feedback -->
+                <!-- Suggestions -->
+                <th>
+                    Feedback
+                </th>
+                <th>
+                    Any comments, questions or suggestions?
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Amazing</th>
+                            <th>Good</th>
+                            <th>Decent</th>
+                            <th>Disappointing</th>
+                        </tr>
+                        <tr>
+                            <td>Food Quality</td>
+                            <td><input type="radio" value="none" name="Food" /></td>
+                            <td><input type="radio" value="none" name="Food" /></td>
+                            <td><input type="radio" value="none" name="Food" /></td>
+                            <td><input type="radio" value="none" name="Food" /></td>
+                        </tr>
+                        <tr>
+                            <td>Overall Service Quality</td>
+                            <td><input type="radio" value="none" name="Service" /></td>
+                            <td><input type="radio" value="none" name="Service" /></td>
+                            <td><input type="radio" value="none" name="Service" /></td>
+                            <td><input type="radio" value="none" name="Service" /></td>
+                        </tr>
+                        <tr>
+                            <td>Speed of Service</td>
+                            <td><input type="radio" value="none" name="Speed" /></td>
+                            <td><input type="radio" value="none" name="Speed" /></td>
+                            <td><input type="radio" value="none" name="Speed" /></td>
+                            <td><input type="radio" value="none" name="Speed" /></td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td><input type="radio" value="none" name="Price" /></td>
+                            <td><input type="radio" value="none" name="Price" /></td>
+                            <td><input type="radio" value="none" name="Price" /></td>
+                            <td><input type="radio" value="none" name="Price" /></td>
+                        </tr>
+                        <tr>
+                            <td class="first-col">Overall Experience</td>
+                            <td><input type="radio" value="none" name="Experience" /></td>
+                            <td><input type="radio" value="none" name="Experience" /></td>
+                            <td><input type="radio" value="none" name="Experience" /></td>
+                            <td><input type="radio" value="none" name="Experience" /></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <textarea rows="10" cols="50" placeholder="Any Suggestion...??"></textarea>
+                </td>
+            </tr>
+            <tr align="left">
+                <!-- Ordered Time -->
+                <!-- Submit Form -->
+                <th>
+                    Ordered Time<span>*</span>
+                </th>
+                <th>
+                    To Sumbit This Form Click Button Below
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="time" name="ordertime" required />
+                </td>
+                <td><button type="submit" href="/">Send Feedback</button></td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+
+</html>
